@@ -20,7 +20,8 @@ The abstract keyword is a non-access modifier, used for classes and methods.
  The class which inherits the properties of other is known as a subclass and the class whose properties are inherited is known as superclass.
 
 ![](images/typesofinheritance.jpg)
-######Java dosen't support multiple inheritance(Multilevel and multiple inheritance are different).
+
+###### Java dosen't support multiple inheritance(Multilevel and multiple inheritance are different).
 
 
 ## Encapsulation
@@ -31,7 +32,7 @@ The abstract keyword is a non-access modifier, used for classes and methods.
 ![](images/encapsulation.png)
 ![](images/access_modifiers.png)
 
-#####Advantages of Encapsulation:
+##### Advantages of Encapsulation:
 
 * Data Hiding: The user will have no idea about the inner implementation of the class. It will not be visible to the user that how the class is storing values in the variables. He only knows that we are passing the values to a setter method and variables are getting initialized with that value.
 * Increased Flexibility: We can make the variables of the class as read-only or write-only depending on our requirement. If we wish to make the variables as read-only then we have to omit the setter methods like setName(), setAge() etc. from the above program or if we wish to make the variables as write-only then we have to omit the get methods like getName(), getAge() etc. from the above program
