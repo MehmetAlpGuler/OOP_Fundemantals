@@ -1,6 +1,19 @@
 # OOP Fundementals
 This is about the Object Oriented Programing Fundementals.
 
+##### Static
+static means there is only one copy of the variable in memory shared by all instances of the class.
+#####  Final
+The final keyword just means the value can't be changed. Without final, any object can change the value of the variable.
+
+##### Interface
+Interfaces specify what a class must do and not how. It is the blueprint of the class.
+
+##### Abstract
+Java Abstract Classes and Methods Data abstraction is the process of hiding certain details and showing only essential information to the user.
+
+The abstract keyword is a non-access modifier, used for classes and methods.
+
 ## Inheritance
 
 * A class acquires the properties of another. 
@@ -67,6 +80,9 @@ This is about the Object Oriented Programing Fundementals.
 
 
 ![](images/OverridingVsOverloading.png)
+
+###### Hiding
+When you declare two static methods with same name and signature in both superclass and subclass then they hide each other i.e. a call to the method in the subclass will call the static method declared in that class and a call to the same method is superclass is resolved to the static method declared in the super-class.
 
 #### Runtime polymorphism 
    It is also known as Dynamic Method Dispatch. It is a process in which a function call to the overridden method is resolved at Runtime. This type of polymorphism is achieved by Method Overriding.
