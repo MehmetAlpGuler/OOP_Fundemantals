@@ -26,7 +26,7 @@ This is about the Object Oriented Programing Fundementals.
 
 ## Abstraction
 
-    * In Object-oriented programming, abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words, the user will have the information on what the object does instead of how it does it.
+* In Object-oriented programming, abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words, the user will have the information on what the object does instead of how it does it.
   
 *  In Java, abstraction is achieved using Abstract classes and interfaces.
 
