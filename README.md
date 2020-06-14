@@ -33,12 +33,12 @@ This is about the Object Oriented Programing Fundementals.
 ![](images/abstraction.png)
 
 
-#####Encapsulation vs Data Abstraction
+##### Encapsulation vs Data Abstraction
 
 * Encapsulation is data hiding(information hiding) while Abstraction is detail hiding(implementation hiding).
 * While encapsulation groups together data and methods that act upon the data, data abstraction deals with exposing the interface to the user and hiding the details of implementation.
 
-#####Advantages of Abstraction
+##### Advantages of Abstraction
 
 * It reduces the complexity of viewing the things.
 * Avoids code duplication and increases reusability.
@@ -49,7 +49,7 @@ This is about the Object Oriented Programing Fundementals.
 *  Polymorphism allows us to perform a single action in different ways. In other words, polymorphism allows you to define one interface and have multiple implementations.  
 
 
-#####In Java polymorphism is mainly divided into two types:
+##### In Java polymorphism is mainly divided into two types:
 * Compile time Polymorphism
 * Runtime Polymorphism
 
@@ -68,19 +68,19 @@ This is about the Object Oriented Programing Fundementals.
 
 ![](images/OverridingVsOverloading.png)
 
-####Runtime polymorphism 
+#### Runtime polymorphism 
    It is also known as Dynamic Method Dispatch. It is a process in which a function call to the overridden method is resolved at Runtime. This type of polymorphism is achieved by Method Overriding.
 
 
-#####Method overriding
+##### Method overriding
    on the other hand, occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.
 
 ![](images/polymorphism_behave.png)
 
 
-##Coupling and Cohesion
+## Coupling and Cohesion
 
-#####Coupling
+##### Coupling
  Coupling refers to the usage of an object by another object. It can also be termed as collaboration. This dependency of one object on another object to get some task done can be classified into the following two types:
 
 * Tight coupling - When an object creates the object to be used, then it is a tight coupling situation. As the main object creates the object itself, this object can not be changed from outside world easily marked it as tightly coupled objects.
@@ -89,12 +89,12 @@ This is about the Object Oriented Programing Fundementals.
 
 ![](images/Coupling_and_Cohesion.png)
 
-######Cohesion
+###### Cohesion
 In object oriented design, cohesion refers all about how a single class is designed. Cohesion is the Object Oriented principle most closely associated with making sure that a class is designed with a single, well-focused purpose.
 The more focused a class is, the cohesiveness of that class is more.
 
-######A class should do only one task according to the relevant Single responsibility principle.
+###### A class should do only one task according to the relevant Single responsibility principle.
  
 ![](images/Cohesion.png)
 
-##Test
+##  Test
