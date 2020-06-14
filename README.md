@@ -89,7 +89,7 @@ This is about the Object Oriented Programing Fundementals.
 
 ![](images/Coupling_and_Cohesion.png)
 
-###### Cohesion
+##### Cohesion
 In object oriented design, cohesion refers all about how a single class is designed. Cohesion is the Object Oriented principle most closely associated with making sure that a class is designed with a single, well-focused purpose.
 The more focused a class is, the cohesiveness of that class is more.
 
